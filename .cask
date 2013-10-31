@@ -15,7 +15,6 @@ installcask imagealpha
 installcask imageoptim
 installcask iterm2
 installcask sublime-text-3
-installcask the-unarchiver
 installcask transmission
 installcask vlc
 installcask alfred
