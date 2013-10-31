@@ -68,6 +68,18 @@ function fs() {
 	fi
 }
 
+# Deterine image dimensions
+function imgsize() {
+  local width height
+  if [[ -f $1 ]]; then
+    height=$(sips -g pixelHeight "$1"|tail -n 1|awk '{print $2}')
+    width=$(sips -g pixelWidth "$1"|tail -n 1|awk '{print $2}')
+    echo "${width} x ${height}"
+  else
+    echo "File not found"
+  fi
+}
+
 # Use Git’s colored diff when available
 hash git &>/dev/null
 if [ $? -eq 0 ]; then
