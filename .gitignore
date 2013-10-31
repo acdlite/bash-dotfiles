@@ -14,4 +14,4 @@ Thumbs.db
 .Trashes
 
 # Personal stuff that shouldn't be comitted to public repository
-.extra
+/.extra
