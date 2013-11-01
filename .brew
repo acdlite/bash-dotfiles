@@ -32,6 +32,8 @@ brew install tree
 brew install webkit2png
 brew install mysql
 brew install dnsmasq
+brew install phpmyadmin
+brew install autoconf
 
 brew tap homebrew/versions
 brew install lua52
