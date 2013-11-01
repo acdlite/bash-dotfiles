@@ -59,8 +59,8 @@ alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[
 # Enhanced WHOIS lookups
 alias whois="whois -h whois-servers.net"
 
-# Restart Apache2
-alias a2r="sudo apachectl restart"
+# Restart Apache
+alias apr="sudo apachectl restart"
 
 # Flush Directory Service cache
 alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
