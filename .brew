@@ -24,6 +24,7 @@ brew tap josegonzalez/homebrew-php
 brew install php55
 
 # Install other useful binaries
+brew install haskell-platform
 brew install imagemagick
 brew install node
 brew install pigz
