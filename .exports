@@ -26,6 +26,3 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # PHP autoconf
 export PHP_AUTOCONF="/usr/local/bin/autoconf"
-
-# Python
-export PATH=/usr/local/share/python:$PATH
