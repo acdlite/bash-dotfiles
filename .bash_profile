@@ -5,6 +5,9 @@ export PATH="$HOME/bin:$PATH"
 homebrew=/usr/local/bin:/usr/local/sbin
 export PATH=$homebrew:$PATH
 
+# TeX Live
+export PATH="usr/texbin:$PATH"
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
