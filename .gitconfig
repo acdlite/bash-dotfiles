@@ -76,3 +76,9 @@
 
 [push]
 	default = matching
+
+[merge]
+  tool = ksdiff
+
+[diff]
+ 	external = ksdiff
