@@ -77,8 +77,17 @@
 [push]
 	default = matching
 
-[merge]
-  tool = ksdiff
-
+[difftool "Kaleidoscope"]
+  cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [diff]
- 	external = ksdiff
+  tool = Kaleidoscope
+[difftool]
+  prompt = false
+
+[mergetool "Kaleidoscope"]
+  cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+  trustExitCode = true
+[mergetool]
+  prompt = false
+[merge]
+  tool = Kaleidoscope
