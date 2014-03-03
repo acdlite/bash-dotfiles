@@ -5,3 +5,6 @@
 
 # Enable tab completion for Grunt tasks
 eval "$(grunt --completion=bash)"
+
+# PHP version
+source $(brew --prefix php-version)/php-version.sh && php-version 5
