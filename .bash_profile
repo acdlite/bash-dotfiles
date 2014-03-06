@@ -47,8 +47,3 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 # Load RVM function
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
-# Source .bashrc
-if [ -f ~/.bashrc ]; then
-   source ~/.bashrc
-fi
