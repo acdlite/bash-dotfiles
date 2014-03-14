@@ -50,3 +50,8 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 # PHP version
 source $(brew --prefix php-version)/php-version.sh && php-version 5
+
+# Git completion
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
